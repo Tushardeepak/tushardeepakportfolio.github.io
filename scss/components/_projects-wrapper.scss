@@ -1,0 +1,29 @@
+.projects-wrapper {
+	width: 100%;
+	&__title {
+		text-align: center;
+		margin-bottom: 40px;
+		opacity: 0.7;
+	}
+	&__links {
+		display: flex;
+		justify-content: space-around;
+	}
+}
+.projects-wrapper__links .pages-nav__item {
+	width: 25%;
+}
+@media (max-width: 1199px) {
+	.projects-wrapper {
+		&__title {
+			margin-bottom: 20px;
+		}
+	}
+}
+@media (max-width: 575px) {
+	.projects-wrapper {
+		&__title {
+			text-align: left;
+		}
+	}
+}

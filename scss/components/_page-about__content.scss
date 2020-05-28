@@ -1,0 +1,14 @@
+.page-about__content {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.page-about__content-link {
+	color: #ffff00;
+}
+@media (max-width: 991px) {
+	.page-about__content {
+		padding-right: 50px;
+	}
+}
